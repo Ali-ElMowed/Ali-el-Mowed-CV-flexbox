@@ -6,6 +6,7 @@
     display: flex;
     background-color: #012A4A;
     color: #BDD0DE;
+    border-bottom:10px solid #EBBD67;
 
 }
 
@@ -14,12 +15,14 @@
 }
 
 .left {
+    border-right:5px solid #EBBD67;
     flex-basis: 30%;
     background-color: #F8F9FA;
 
 }
 
 .right {
+    border-left:5px solid #EBBD67;
     flex-basis: 70%;
     background-color: #2A6F97;
 

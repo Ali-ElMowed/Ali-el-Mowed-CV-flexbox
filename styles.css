@@ -25,6 +25,8 @@
     border-left:5px solid #EBBD67;
     flex-basis: 70%;
     background-color: #2A6F97;
+    color: white;
+    
 
 }
 
@@ -121,7 +123,7 @@
 .year h4 {
     margin: 0px;
     font-size: 1.1rem;
-    /*margin-top: 20px;*/
+    
 }
 .year h5{
     margin: 10px 0px;
@@ -131,7 +133,7 @@
     margin-left: 30px;
 }
 .hobbies h3 {
-    font-size: 1.75rem;
+    font-size: 1.1rem;
     margin-bottom: 0px;
 }
 .hobbies-items{
@@ -145,20 +147,112 @@
 }
 .card{
     
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border-radius: 10px;
     background-color: #551A8B;
     margin: 15px;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
 }
 .icon{
     margin: 15px 15px 0px 15px;
     color: #F8F9FA;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 .info{
     margin: 15px 15px 0px 15px;
     color: #F8F9FA;
     text-align: center;
+}
+.about{
+    margin-left: 30px;
+}
+.about h3{
+    font-size: 2rem;
+    margin-bottom: 0px;
+}
+.about h4 {
+    margin-right: 20px;
+    font-size: 1.1rem;
+    
+}
+.about .under-title {
+    margin-left: 1px;
+    width: 20%;
+    border: 0.5px solid;
+}
+.what-iknow-lang  ,.what-iknow-fram {
+    display: flex;
+}
+.what-iknow h4 {
+    margin-right: 20px;
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+    
+}
+.under-title-langul{
+    margin-top: 0px;
+    margin-left: 1px;
+    width: 14%;
+    border: 0.5px solid
+}
+.lang-card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #183153;
+    margin: 15px;
+    transition: 0.7s ease;
+    justify-content: center;
+    align-content: center;
+}
+.lang-card a{
+   
+}
+.lang-card:hover{
+    transform: scale(1.1);
+}
+.lang-icon{
+    margin: 15px 15px 0px 15px;
+    font-size: 2.5rem;
+    text-align: center;
+    
+}
+.lang-info h3{
+    margin-top: 20px;
+    ;
+}
+.html{
+    background-color: #DD4B25;
+}
+.js{
+    background-color: #EFD81D;
+
+}
+.css{
+    background-color: #3595CF;
+}
+.python{
+    background-color: #F7CC42;
+}
+.java{
+    background-color: #E51F24;
+}
+.boot{
+    background-color: #51347C;
+}
+.react{
+    background-color: #00D1F7;
+}
+.boot h3
+{
+    margin-top: 25px;
+    margin-left: 0px;
+    font-size: 1.5rem;
 }

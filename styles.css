@@ -277,3 +277,32 @@
 .more-detailes{
     color: white;
 }
+.get-in-touch-form{
+    margin-top: 50px;
+    margin-left: 25%;
+}
+.inputs{
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid #551A8B ;
+}
+.text-area{
+    width: 400px;
+    height: 70px;
+    border-radius: 5px;
+    border: 2px solid #551A8B ;
+    margin-bottom: 0px;
+    
+}
+.btn{
+    margin-bottom: 100px;
+    border-radius: 5px;
+    border: 2px solid #551A8B ;
+    background-color: #551A8B;
+    color: white;
+}
+::placeholder{
+    color: #6e7f8b;
+    opacity:150% ;
+}

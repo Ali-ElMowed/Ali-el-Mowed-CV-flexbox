@@ -170,6 +170,9 @@
     display: none;
 }
 #pod, #book{
+    margin-top: 20px;
+    text-align: center;
+    
     font-size: 0.7rem;
 }
 .icon{
@@ -229,9 +232,6 @@
     justify-content: center;
     align-content: center;
 }
-.lang-card a{
-   
-}
 .lang-card:hover{
     transform: scale(1.1);
 }
@@ -259,6 +259,7 @@
     background-color: #F7CC42;
 }
 .java{
+    
     background-color: #E51F24;
 }
 .boot{
@@ -272,4 +273,7 @@
     margin-top: 25px;
     margin-left: 0px;
     font-size: 1.5rem;
+}
+.more-detailes{
+    color: white;
 }

@@ -4,7 +4,7 @@
 }
 
 .head-container {
-    width: 100%;
+    
     display: flex;
 
     background-color: #012A4A;
@@ -348,6 +348,10 @@
     }
     .formal-img{
         margin-left: 130px;
+    }
+    .head-container{
+        display: block;
+        border-bottom: none;
     }
     .right, .left{
         border: none;

@@ -1,3 +1,6 @@
+*{
+    font-family: ;
+}
 .head-container {
     display: flex;
     
@@ -14,4 +17,7 @@
 .right{
     flex-basis: 70%;
     
+}
+.formal-img{
+    width: 150px;
 }

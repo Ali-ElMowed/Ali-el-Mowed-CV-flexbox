@@ -1,9 +1,12 @@
 * {
     font-family: 'Poppins', sans-serif;
+  
 }
 
 .head-container {
+    width: 100%;
     display: flex;
+
     background-color: #012A4A;
     color: #BDD0DE;
     border-bottom:10px solid #EBBD67;
@@ -206,6 +209,7 @@
 .what-iknow-lang  ,.what-iknow-fram {
     
     display: flex;
+    flex-wrap: wrap;
 }
 
 .what-iknow h4 {
@@ -305,4 +309,47 @@
 ::placeholder{
     color: #6e7f8b;
     opacity:150% ;
+}
+@media (max-width:1023px){
+    .head-container{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .page-container{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .right{
+        flex-basis: 100%;
+
+    }
+    .left{
+        flex-basis: 100%;
+        
+    }
+   
+    .name-title h2, .name-title h4 {
+        margin: 25px 15px 15px 60px;
+    }
+    hr{
+        display: none;
+    }
+    .about h4{
+        width: 460px;;
+    }
+    .hobbies-items {
+        width: 400px;
+    }
+    .what-iknow-lang {
+        width: 500px;
+    }
+    .what-iknow-fram {
+        width: 460px;
+    }
+    .get-in-touch-form {
+        margin-left: 2%;
+    }
+    .formal-img{
+        margin-left: 130px;
+    }
 }

@@ -14,16 +14,16 @@
 
 .left{
     flex-basis: 30%;
-    /*background-color: rebeccapurple*/
+    background-color: #F8F9FA;
     
 }
 .right{
     flex-basis: 70%;
-    background-color: blue;
+    background-color: #2A6F97;
     
 }
 .name-title{
-    /*background-color: beige;*/
+    
     flex-basis: 60%;
 }
 .formal-img{
@@ -48,3 +48,30 @@
     margin-left: 250px;
     font-size: 1.5rem;
 }
+.contact{
+    margin-left: 30px;
+}
+.phone, .email, .address{
+    display: flex;
+    
+}
+a{
+    margin: 20px;
+}
+
+.contact h3{
+    font-size: 1.75rem;
+    margin-bottom: 0px;
+}
+.contact h4{
+    margin: 0px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.contact h6{
+    margin: 0px;
+    font-size: 1rem;
+    
+}
+   

@@ -74,7 +74,7 @@
 }
 
 .contact a {
-    margin: 20px;
+    margin: 27px 20px 20px 20px;
 }
 
 .contact h3 {
@@ -123,4 +123,39 @@
 .year h5{
     margin: 10px 0px;
     font-size: 0.8rem;
+}
+.hobbies{
+    margin-left: 30px;
+}
+.hobbies h3 {
+    font-size: 1.75rem;
+    margin-bottom: 0px;
+}
+.hobbies-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+
+    
+    
+}
+.card{
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #551A8B;
+    margin: 15px;
+}
+.icon{
+    margin: 15px 15px 0px 15px;
+    color: #F8F9FA;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.info{
+    margin: 15px 15px 0px 15px;
+    color: #F8F9FA;
+    text-align: center;
 }

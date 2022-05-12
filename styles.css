@@ -321,13 +321,10 @@
     }
     .right{
         flex-basis: 100%;
-
     }
     .left{
-        flex-basis: 100%;
-        
+        flex-basis: 100%;  
     }
-   
     .name-title h2, .name-title h4 {
         margin: 25px 15px 15px 60px;
     }
@@ -351,5 +348,8 @@
     }
     .formal-img{
         margin-left: 130px;
+    }
+    .right, .left{
+        border: none;
     }
 }
